@@ -1,35 +1,51 @@
 @import url(normalize.css);
+@import url(animation.css);
 
 body {
-	background: #00F7E2;
-	font: verdana, sans-serif 16px;
-	font-family: verdana, sans-serif;
-	text-align: center;
+	margin:0;
+	padding: 0;
+	font: arial, tahoma, sans-serif 16px;
+	background: #00BC9E;
+    animation-name: background;
+    animation-duration: 30s;
 }
 
-.container { 
-	width: 960px; 
+.container {
+	width: 960px;
 	height: 200px;
-	background-color: red;
-	margin: 0 auto;
-	margin-top: calc(100% / 2  - 100px);
+	margin: calc(50% / 2 - 100px) auto;
+	text-align: center;
 	padding: 10px;
+	box-sizing: border-box;
+}
+img {
+	width: 150px;
+	border: 10px solid rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	box-shadow: 1px 1px 4px black;
 
 }
-.links {
-	margin: 0 auto;
-	display: inline-block;
+img:hover {
+	transform: rotate(360deg);
+	transition: all 1s ease-in-out;
 }
-a {
-	padding: 10px;
-	margin: 0 auto;
-	text-decoration: none;
-	color: black;
-	background: cyan;
-	box-shadow: 0 0 7px black;
-	border-radius: 5px;
-	margin: 0 20px;
+h1 {
+	text-shadow: 1px 1px 4px black;
 }
 p {
-	margin-bottom: 50px;
+	text-shadow: 1px 1px 1px black;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding-bottom: 5px;
+	margin: 10px;
+	border-bottom: 1px solid transparent;
+
+}
+a:hover {
+	color: black;
+	border-bottom: 1px solid black;
+	transition: .3s ease-in-out;
+
 }
