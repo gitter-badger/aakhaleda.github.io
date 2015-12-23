@@ -23,7 +23,8 @@ img {
 	border: 10px solid rgba(255, 255, 255, .5);
 	border-radius: 50%;
 	box-shadow: 1px 1px 4px black;
-
+	animation: scale 2s cubic-bezier(.23,1.49,.82,-0.39);
+	transition: all .3s;
 }
 img:hover {
 	transform: rotate(360deg);

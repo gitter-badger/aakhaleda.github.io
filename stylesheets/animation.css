@@ -10,3 +10,7 @@
     from {background-color: red;}
     to {background-color: yellow;}
 }
+@keyframes scale {
+	from {transform: scale(1, 1);}
+	to {transform: scale(1.5, 1.5);}
+}
