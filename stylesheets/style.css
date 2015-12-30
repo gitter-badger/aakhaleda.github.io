@@ -6,8 +6,11 @@ body {
 	padding: 0;
 	font: arial, tahoma, sans-serif 16px;
 	background: #00BC9E;
-    	animation-name: background;
-    	animation-duration: 30s;
+    animation-name: background;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
 }
 
 .container {
