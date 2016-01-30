@@ -51,3 +51,11 @@ a:hover {
 	transition: .3s ease-in-out;
 
 }
+
+
+.fa-twitter,
+.fa-facebook,
+.fa-linkedin,
+.fa-github {
+    font-size: 4em;
+}
